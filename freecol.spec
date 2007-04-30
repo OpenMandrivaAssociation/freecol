@@ -10,7 +10,7 @@ URL:        	http://www.freecol.org/
 Source:     	http://prdownloads.sourceforge.net/freecol/freecol-%version-src.tar.gz
 BuildRoot:  	%_tmppath/%name-buildroot
 BuildRequires:	j2sdk-ant
-BuildRequires:	java-devel
+BuildRequires:	java-devel-sun
 Requires:   	java >= 1.4
 Requires(post,postun): desktop-common-data
 
