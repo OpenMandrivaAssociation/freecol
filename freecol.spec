@@ -9,8 +9,10 @@ Group:      	Games/Strategy
 URL:        	http://www.freecol.org/
 Source:     	http://prdownloads.sourceforge.net/freecol/freecol-%version-src.tar.gz
 BuildRoot:  	%_tmppath/%name-buildroot
-BuildRequires:	j2sdk-ant
+BuildRequires:	ant
+BuildRequires:	ant-nodeps
 BuildRequires:	java-devel-sun
+BuildRequires:	xerces-j2
 Requires:   	java >= 1.4
 Requires(post,postun): desktop-common-data
 
