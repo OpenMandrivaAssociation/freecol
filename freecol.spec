@@ -65,7 +65,6 @@ Icon=%name
 Terminal=false
 Type=Application
 Categories=X-MandrivaLinux-MoreApplications-Games-Strategy;Game;StrategyGame;
-Encoding=UTF-8
 EOF
 
 %post
