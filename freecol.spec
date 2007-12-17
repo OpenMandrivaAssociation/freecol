@@ -8,7 +8,6 @@ License:    	GPL
 Group:      	Games/Strategy
 URL:        	http://www.freecol.org/
 Source:     	http://prdownloads.sourceforge.net/freecol/freecol-%version-src.tar.gz
-BuildRoot:  	%_tmppath/%name-buildroot
 BuildRequires:	ant
 BuildRequires:	ant-nodeps
 #BuildRequires:	java-devel-sun
