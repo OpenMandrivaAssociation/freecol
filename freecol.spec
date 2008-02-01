@@ -1,17 +1,16 @@
 %define Summary FreeCol is an open version of the game Colonization
 
 Name:       	freecol
-Version:    	0.7.1
+Version:    	0.7.3
 Release:    	%mkrel 1
 Summary:    	%Summary
-License:    	GPL
+License:    	GPLv2+
 Group:      	Games/Strategy
 URL:        	http://www.freecol.org/
 Source:     	http://prdownloads.sourceforge.net/freecol/freecol-%version-src.tar.gz
 BuildRoot:  	%_tmppath/%name-buildroot
 BuildRequires:	ant
 BuildRequires:	ant-nodeps
-#BuildRequires:	java-devel-sun
 BuildRequires:	xerces-j2
 Requires:   	java >= 1.4
 Requires(post,postun): desktop-common-data
@@ -73,4 +72,3 @@ rm -rf %buildroot
 %_datadir/applications/mandriva-%name.desktop
 %_datadir/games/freecol
 %_datadir/pixmaps/freecol.xpm
-
