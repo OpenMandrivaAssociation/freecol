@@ -2,7 +2,7 @@
 
 Name:       	freecol
 Version:    	0.7.3
-Release:    	%mkrel 1
+Release:    	%mkrel 2
 Summary:    	%Summary
 License:    	GPLv2+
 Group:      	Games/Strategy
