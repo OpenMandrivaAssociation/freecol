@@ -1,7 +1,7 @@
 %define Summary FreeCol is an open version of the game Colonization
 
 Name:       	freecol
-Version:    	0.9.0
+Version:    	0.9.2
 Release:    	%mkrel 1
 Summary:    	%Summary
 License:    	GPLv2+
