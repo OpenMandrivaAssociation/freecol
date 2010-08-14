@@ -1,19 +1,19 @@
 %define Summary FreeCol is an open version of the game Colonization
 
-Name:       	freecol
-Version:    	0.9.2
-Release:    	%mkrel 1
-Summary:    	%Summary
-License:    	GPLv2+
-Group:      	Games/Strategy
-URL:        	http://www.freecol.org/
-Source:     	http://prdownloads.sourceforge.net/freecol/freecol-%version-src.tar.gz
-BuildRoot:  	%_tmppath/%name-buildroot
+Name:		freecol
+Version:	0.9.4
+Release:	%mkrel 1
+Summary:	%Summary
+License:	GPLv2+
+Group:		Games/Strategy
+URL:		http://www.freecol.org/
+Source:		http://prdownloads.sourceforge.net/freecol/freecol-%version-src.tar.gz
+BuildRoot:	%_tmppath/%name-buildroot
 BuildRequires:	ant
 BuildRequires:	ant-nodeps
 BuildRequires:	xerces-j2
-Requires:   	java >= 1.4
-Requires(post,postun): desktop-common-data
+Requires:	java >= 1.5
+Requires:	desktop-common-data
 
 %description
 FreeCol is an open version of Colonization. It is a Civilization-like game in
