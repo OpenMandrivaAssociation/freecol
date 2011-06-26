@@ -2,16 +2,17 @@
 
 Name:		freecol
 Version:	0.10.0
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	%Summary
 License:	GPLv2+
 Group:		Games/Strategy
 URL:		http://www.freecol.org/
-Source:		http://prdownloads.sourceforge.net/freecol/freecol-%version-alpha-src.tar.gz
+Source:		http://prdownloads.sourceforge.net/freecol/freecol-%version-src.zip
 BuildRoot:	%_tmppath/%name-buildroot
 BuildRequires:	ant
 BuildRequires:	ant-nodeps
 BuildRequires:	xerces-j2
+BuildRequires:	unzip
 Requires:	java >= 1.5
 Requires:	desktop-common-data
 BuildArch:	noarch
