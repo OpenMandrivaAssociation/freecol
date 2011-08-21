@@ -1,8 +1,8 @@
 %define Summary FreeCol is an open version of the game Colonization
 
 Name:		freecol
-Version:	0.10.0
-Release:	%mkrel 2
+Version:	0.10.1
+Release:	%mkrel 1
 Summary:	%Summary
 License:	GPLv2+
 Group:		Games/Strategy
@@ -13,7 +13,7 @@ BuildRequires:	ant
 BuildRequires:	ant-nodeps
 BuildRequires:	xerces-j2
 BuildRequires:	unzip
-Requires:	java >= 1.5
+Requires:	java >= 1.6
 Requires:	desktop-common-data
 BuildArch:	noarch
 
