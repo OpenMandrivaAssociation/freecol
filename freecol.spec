@@ -1,5 +1,5 @@
 Name:		freecol
-Version:	0.10.5
+Version:	0.10.6
 Release:	%mkrel 1
 Summary:	FreeCol is an open version of the game Colonization
 License:	GPLv2+
@@ -28,8 +28,8 @@ ant
 %__rm -rf %{buildroot}
 
 %__mkdir_p %{buildroot}%{_datadir}/games/%{name}
-%__cp FreeCol.jar %{buildroot}%{_datadir}/games/%{name}
-%__cp -a {data,jars} %{buildroot}%{_datadir}/games/%{name}
+cp FreeCol.jar %{buildroot}%{_datadir}/games/%{name}
+cp -a {data,jars} %{buildroot}%{_datadir}/games/%{name}
 
 %__mkdir_p %{buildroot}%{_bindir}
 %__cat > %{buildroot}%{_bindir}/%{name} << EOF
@@ -53,9 +53,6 @@ Terminal=false
 Type=Application
 Categories=Game;StrategyGame;
 EOF
-
-%clean
-%__rm -rf %{buildroot}
 
 %files
 %defattr(0644,root,root,0755)
