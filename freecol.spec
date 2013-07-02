@@ -1,7 +1,7 @@
 Name:		freecol
 Version:	0.10.6
-Release:	%mkrel 1
-Summary:	Is an open version of the game Colonization
+Release:	2
+Summary:	Open version of the game Colonization
 License:	GPLv2+
 Group:		Games/Strategy
 URL:		http://www.freecol.org/
@@ -25,7 +25,6 @@ which the player has to conquer the new world.
 ant
 
 %install
-%__rm -rf %{buildroot}
 
 %__mkdir_p %{buildroot}%{_datadir}/games/%{name}
 cp FreeCol.jar %{buildroot}%{_datadir}/games/%{name}
