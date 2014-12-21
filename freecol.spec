@@ -1,13 +1,13 @@
 Name:		freecol
-Version:	0.10.6
-Release:	2
+Version:	0.11.1
+Release:	1
 Summary:	Open version of the game Colonization
 License:	GPLv2+
 Group:		Games/Strategy
 URL:		http://www.freecol.org/
-Source:		http://prdownloads.sourceforge.net/freecol/%{name}-%{version}-src.zip
+Source0:	http://prdownloads.sourceforge.net/freecol/%{name}-%{version}-src.zip
 BuildRequires:	ant
-BuildRequires:	ant-nodeps
+BuildRequires:	ant
 BuildRequires:	xerces-j2
 BuildRequires:	unzip
 Requires:	java >= 1.6
@@ -22,6 +22,8 @@ which the player has to conquer the new world.
 %setup -q -n %{name}
 
 %build
+export JAVA_HOME=%_prefix/lib/jvm/java-openjdk
+export ANT_OPTS=-Dfile.encoding=UTF8
 ant
 
 %install
