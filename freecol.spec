@@ -1,5 +1,5 @@
 Name:		freecol
-Version:	0.11.6
+Version:	0.13.0
 Release:	1
 Summary:	Open version of the game Colonization
 License:	GPLv2+
@@ -8,7 +8,7 @@ URL:		http://www.freecol.org/
 Source0:	http://prdownloads.sourceforge.net/freecol/%{name}-%{version}-src.zip
 BuildRequires:	ant
 BuildRequires:	ant
-BuildRequires:	xerces-j2
+#BuildRequires:	xerces-j2
 BuildRequires:	unzip
 Requires:	java >= 1.6
 Requires:	desktop-common-data
