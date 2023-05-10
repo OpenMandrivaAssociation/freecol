@@ -1,5 +1,5 @@
 Name:		freecol
-Version:	1.0.0
+Version:	1.1.0
 Release:	1
 Summary:	Open version of the game Colonization
 License:	GPLv2+
